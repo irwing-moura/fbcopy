@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: #4a90e2;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+header img#logo {
+  margin-left: 42px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul a {
+  text-decoration: none;
+}
+
+header nav ul li {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 42px;
+}
+
+header nav ul li img {
+  width: 24px;
+  margin-left: 8px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section .cards {
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+  width: 700px;
+  background: #fff;
+  margin: 20px;
+}
+
+section .cards ul.post {
+  list-style: none;
+}
+
+section .cards ul.post li {
+  margin-top: 20px;
+  border-bottom: 1px solid #eeeeee;
+  padding: 10px 15px;
+  display: flex;
+}
+
+section .cards ul.post li .info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section .cards ul.post li .info strong {
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+section .cards ul.post li .info small {
+  font-size: 11px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #9a9a9a;
+}
+
+section .cards ul.post li .info p {
+  margin-top: 15px;
+  font-size: 14px;
+  margin-left: -40px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #3e3e3e;
+  margin-bottom: 20px;
+}
+
+section .cards .post li img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+section .cards .comments li img {
+  width: auto;
+  height: 32px;
+  border-radius: 50%;
+}
+
+section .cards ul.comments {
+  list-style: none;
+}
+
+section .cards ul.comments li {
+  padding: 10px 15px;
+  display: flex;
+}
+
+section .cards ul.comments li .comentario {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #eeeeee;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+section .cards ul.comments li .comentario p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #3e3e3e;
+  padding-right: 5px;
+}
+
+section .cards ul.comments li .comentario p strong {
+  font-size: 13px;
+  color: #4a4a4a;
+  padding-right: 5px;
+}
